@@ -37,5 +37,29 @@ static void Main(string[] args)
             //}
             //int daysOnNextBirthday = (nextBirthday - DateTime.Now).Days;
             //Console.WriteLine($"Осталось {daysOnNextBirthday} до ближайшего дня рождения");
-            //Console.ReadKey();
         }
+//2-способ
+            //if (DateTime.TryParse(Console.ReadLine(), out DateTime birthdate))
+            //{
+            //    string dayOfWeek = birthdate.ToString("dddd");
+            //    int dayOfYear = birthdate.DayOfYear;
+            //    bool isLeapYear = DateTime.IsLeapYear(birthdate.Year);
+            //    DateTime nextBirthday = birthdate.Month < DateTime.Now.Month || (birthdate.Month == DateTime.Now.Month && birthdate.Day < DateTime.Now.Day)
+            //        ? new DateTime(DateTime.Now.Month + 1, birthdate.Month, birthdate.Day) : new DateTime(DateTime.Now.Year, birthdate.Month, birthdate.Day);
+
+            //    Console.WriteLine($"День недели: {dayOfWeek}");
+            //    Console.WriteLine($"Порядковый номер дня в году: {dayOfYear}");
+            //    Console.WriteLine($"Год високосный: {isLeapYear}");
+            //    Console.WriteLine($"Ближайший день рождение: {nextBirthday:dddd, dd MMMM yyyy}");
+
+            //    int age = DateTime.Now.Year - birthdate.Year - (DateTime.Now.DayOfYear < birthdate.DayOfYear ? 1 : 0);
+            //    Console.WriteLine($"Количество полных лет: {age}");
+
+            //    int daysOnNextBirthday = (nextBirthday - DateTime.Now).Days;
+            //    Console.WriteLine($"Осталось {daysOnNextBirthday} до ближайшего дня рождения");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Некорректно введена дата. Формат должен быть, гггг-мм-дд");
+            //}
+            //Console.ReadKey();
