@@ -1,0 +1,41 @@
+static void Main(string[] args)
+        {
+            //Задание1-Введите две даты, и определите какая разница дней между ними.
+            //Console.Write("Введите первую дату: ");
+            //DateTime time = DateTime.Parse(Console.ReadLine());
+            //Console.Write("Введите вторую дату: ");
+            //DateTime time1 = DateTime.Parse(Console.ReadLine());
+            //TimeSpan span = time1 - time;
+            //int daysBetween = span.Days;
+            //Console.WriteLine($"Разница дней между датами: {daysBetween}");
+            //Задание2-Опеределить, сколько дней осталось до конца месяца.
+            //DateTime конкретнаяДата = DateTime.Now;
+            //DateTime lastDayOfMonth = new DateTime(конкретнаяДата.Year, конкретнаяДата.Month, DateTime.DaysInMonth(конкретнаяДата.Year, конкретнаяДата.Month));
+            //int daysRemaining = (lastDayOfMonth - конкретнаяДата).Days;
+            //Console.WriteLine($"До конца месяца осталось {daysRemaining} дней.");
+            //Задание3-Ввести свою дату рождения. Определить:
+            //день недели, в котором вы ролидились, порядковый номер дня рождения в вашем году.
+            //Является ли ваш год високосным, дату ближайшего дня рождения.
+            //Количество полных лет. Сколько дней осталось от сегодняшней даты, до вашего ближайшего дня рождения.
+            //Console.Write("Введите свою дату рождения: ");
+            //DateTime birthDate = DateTime.Parse(Console.ReadLine());
+            //Console.WriteLine($"День недели: {birthDate:dddd}");
+            //Console.WriteLine($"Порядковый номер дня в году: {birthDate.DayOfYear}");
+            //bool isLeapYear = DateTime.IsLeapYear(birthDate.Year);
+            //Console.WriteLine($"Год високосоный: {isLeapYear}");
+            //DateTime nextBirthday = new DateTime(DateTime.Now.Year, birthDate.Month, birthDate.Day);
+            //if (nextBirthday < DateTime.Now)
+            //{
+            //    nextBirthday = nextBirthday.AddYears(1);
+            //    Console.WriteLine($"Ближайший день рождение: {nextBirthday:dddd, dd MMMM yyyy}");
+            //}
+            //int age = DateTime.Now.Year - birthDate.Year;
+            //if (DateTime.Now < birthDate.AddYears(age))
+            //{
+            //    age--;
+            //    Console.WriteLine($"Количество полных лет: {age}");
+            //}
+            //int daysOnNextBirthday = (nextBirthday - DateTime.Now).Days;
+            //Console.WriteLine($"Осталось {daysOnNextBirthday} до ближайшего дня рождения");
+            //Console.ReadKey();
+        }
